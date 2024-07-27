@@ -13,6 +13,6 @@ export const fetchCardsData = async () => { //function bnaya jo data fetch krega
 };
 
 export const login = async (email, password) => {
-  const response = await apiClient.post("/auth/login", { email, password });
+  const response = await apiClient.post("/auth/login", { email, password }); // same login function bnaya data fetch krne ko.
   return response.data;
 };

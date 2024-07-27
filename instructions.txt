@@ -4,4 +4,10 @@ first you have to install tanstack using npm i @tanstack/react-query;
 step2;
 second you have to import QueryClient , QueryClientProvider from tanstack ;
 then , make a variable named const QueryClient = new QueryClient ();
+step3:
+now , lets make some folders , so ,, the src should look like this :
+src/
+pages/
+servies/tan.js/hooks
+
 

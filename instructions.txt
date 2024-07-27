@@ -9,5 +9,9 @@ now , lets make some folders , so ,, the src should look like this :
 src/
 pages/
 servies/tan.js/hooks
-
+ step 4:
+ now make a file in services folder named tan.js
+ in which we will be  using the url of the api , and extracting the data from it ,
+ first , we will make a variable and use axios.create in which we wil provide the base url and the header to  the axios.create
+  then ., we will create a fetch data function , in which we will put an async and will get response from the variable.get which we made abouve , convert into respose .json and then return the function.
 

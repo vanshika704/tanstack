@@ -1,3 +1,7 @@
 steps to install tanstack:
 step 1:
 first you have to install tanstack using npm i @tanstack/react-query;
+step2;
+second you have to import QueryClient , QueryClientProvider from tanstack ;
+then , make a variable named const QueryClient = new QueryClient ();
+
